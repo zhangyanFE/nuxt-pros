@@ -8,10 +8,14 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "production": "cross-env NODE_ENV=production pm2 startOrRestart ecosystem.config.js"
   },
   "dependencies": {
     "axios": "^0.19.2",
+    "consola": "^2.15.0",
+    "cross-env": "^7.0.2",
+    "express": "^4.17.1",
     "nuxt": "^2.0.0",
     "swiper": "^6.1.1"
   },
