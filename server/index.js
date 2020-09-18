@@ -3,10 +3,10 @@ const consola = require("consola");
 const { Nuxt, Builder } = require("nuxt");
 const app = express();
 
-const api = require("./api");
+// const api = require("./api");
 
 // Import API Routes
-app.use("/api", api);
+// app.use("/api", api);
 
 // Import and Set Nuxt.js options
 const config = require("../nuxt.config.js");
